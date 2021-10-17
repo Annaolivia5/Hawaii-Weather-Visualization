@@ -45,12 +45,11 @@ def home():
 
 @app.route("/api/v1.0/precipitation")
 def prcp():
-    session = Session(engine)
 
+    session = Session(engine)
+    
     # Find the most recent date in the data set.
     recent_date = session.query(Measurement.date).order_by(Measurement.date.desc()).first()
-    # year_str = dt.date.recent_date[0].strftime("%y")
-    recent_date.date
 
     # Calculate the date one year from the last date in data set.
     year_ago = dt.datetime(2017,8,23)- dt.timedelta(days = 365)
@@ -65,7 +64,7 @@ def prcp():
 
     # Save the query results in a dictionary - keys=dates and values=prcps
     prcp_dict = dict(zip(dates, prcps))
-
+    precip = {date: prcp for date, prcp in results}
     return jsonify(prcp_dict)
 
 @app.route("/api/v1.0/stations")
