@@ -17,5 +17,3 @@
 * Total rainfall inches for each observation station in hawaii was also calulcated for the above date range. The station in PEARL CITY, HI US had the lowest total rainfall in inches.
 
 * Daily normals (averge, minimum, and maximum) of temperature for the date range above were calculated and graphed on an area plot. 
-
-
