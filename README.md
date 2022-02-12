@@ -4,7 +4,7 @@
 
 * Visulas show the percipitation in inches for the most recent year in the data set, and the temperature observations from one location in hawaii for one year.
 <br>
-![Percipitation in Inches](images/prcp-inches.png "Percipitation in Inches")<br>
+![Percipitation in Inches](./images/prcp-inches.png "Percipitation in Inches")<br>
 ![Temperature Observations](images/temp-obvs.png "Temperature Observations")<br>
 
 * A flask app displays the results of the following queries:
