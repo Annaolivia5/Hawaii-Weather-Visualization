@@ -1,4 +1,4 @@
-# Hawaii-Weather-Visuals
+# Hawaii-Weather-Visualization
 
 * This project uses climate data from Hawaii to look at temperature and percipitation trends in Hawaii. <br>
 
