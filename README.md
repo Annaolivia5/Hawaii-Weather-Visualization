@@ -1,4 +1,4 @@
-# sqlalchemy-challenge
+# Hawaii-Weather-Visuals
 
 * This project uses climate data from Hawaii to look at temperature and percipitation trends in Hawaii. <br>
 
